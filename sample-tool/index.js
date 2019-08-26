@@ -561,4 +561,8 @@ function rotateEuler(euler, result) {
       enable();
     }
   }
+
+  toggleElement.addEventListener('click', toggle);
+  // Neu bis hier ^^^^^^^^^^^
+
 })();
