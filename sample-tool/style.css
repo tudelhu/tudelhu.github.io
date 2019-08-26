@@ -828,3 +828,32 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+
+/* Neu vvvvvvvvvv */
+#toggleDeviceOrientation {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
+}
+
+#toggleDeviceOrientation img {
+  width: 30px;
+  margin: 5px;
+}
+
+#toggleDeviceOrientation .disable {
+  display: none;
+}
+
+#toggleDeviceOrientation.enabled .disable {
+  display: block;
+}
+
+#toggleDeviceOrientation.enabled .enable {
+  display: none;
+}
+/* Neu ^^^^^^^^^^^^^^^ */
